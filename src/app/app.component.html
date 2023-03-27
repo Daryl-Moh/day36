@@ -1,12 +1,17 @@
-<h1>Day 36 Lesson</h1>
+<h2>Day 36 Lesson</h2>
 
 <div class="box">
   <a [routerLink]="['/']">Home</a>
   &nbsp;
   <a [routerLink]="['/elephant']">Go To Elephant Page</a>
   &nbsp;
+  <a [routerLink]="['/trex']">Go to T-Rex Page</a>
+  <br>
+  <br>
   <button type="button" [routerLink]="['/trex']">Go To Trex Page</button>
   &nbsp;
   <button type="button" (click)="gotoElephant()">Go To Elephant Page</button>
+  <br>
+  <br>
 </div>
 <router-outlet></router-outlet>
